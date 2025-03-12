@@ -18,7 +18,10 @@ Audio Preamplifier – Design and Implementation
  Design Specifications: The preamplifier offers a gain range from 4x to 40x
  ## Circuit Simulation and Testing
  
- The circuit schematic consists of a Darlington amplifier stage, which provides high current gain and high input impedance, making it suitable for low-power signal amplification. The configuration involves coupling the emitter of transistor Q7 to the base of transistor Q4, ensuring efficient signal amplification. Additionally, an active current source implemented with transistor Q8 supplies a constant current to the collector of Q7, improving stability and linearity. The circuit operates with a single positive power supply, using a common ground reference. After amplification and filtering, the processed audio signal is directed to the output stage, ensuring high-quality signal transmission.
+ The circuit schematic consists of a Darlington amplifier stage, which provides high current gain and high input impedance, making it suitable for low-power signal amplification. The circuit operates with a single positive power supply, using a common ground reference. After amplification and filtering, the processed audio signal is directed to the output stage, ensuring high-quality signal transmission.
+ <br/>
+![Circuit](https://github.com/TeodoraEnache/Proiect_Preamplificator_Audio/blob/main/schema_electrica.jpg)
+ <br/>  
 
 ## ⚡Skills Developed
 
