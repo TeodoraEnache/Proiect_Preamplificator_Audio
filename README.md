@@ -18,7 +18,7 @@
 
  
  ## Circuit Simulation and Testing
- 
+
  ## Schematic
  
  The circuit schematic consists of a Darlington amplifier stage, which provides high current gain and high input impedance, making it suitable for low-power signal amplification. The circuit operates with a single positive power supply, using a common ground reference. After amplification and filtering, the processed audio signal is directed to the output stage, ensuring high-quality signal transmission.
@@ -41,7 +41,7 @@
 The gain increases, when the control voltage is 0V. The output(GREEN) is amplified significantly, with the output amplitude increased by a factor of 40.  
 
 <br/>
-![Sim2](https://github.com/TeodoraEnache/Proiect_Preamplificator_Audio/blob/main/VDC%3D0V.jpg)
+![Sim2](hhttps://github.com/TeodoraEnache/Proiect_Preamplificator_Audio/blob/main/VDC%3D0V.jpg)
 <br/>
 
  ### PCB DESIGN
