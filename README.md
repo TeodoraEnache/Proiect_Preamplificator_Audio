@@ -1,12 +1,12 @@
 # Proiect_Preamplificator_Audio
 
 # 🔊Audio Preamplifier – Design and Implementation
-## 📜 Table of contents: 
- -[🔍📖Description](https://github.com/TeodoraEnache/Proiect_Preamplificator_Audio?tab=readme-ov-file#description)
- -[Download Project](https://github.com/TeodoraEnache/Proiect_Preamplificator_Audio?tab=readme-ov-file#download-project)
- -[Project Overview](https://github.com/TeodoraEnache/Proiect_Preamplificator_Audio?tab=readme-ov-file#project-overview)
+## 📜 Table of contents:   
+-[🔍📖Description](https://github.com/TeodoraEnache/Proiect_Preamplificator_Audio?tab=readme-ov-file#description)  
+ -[Download Project](https://github.com/TeodoraEnache/Proiect_Preamplificator_Audio?tab=readme-ov-file#download-project)  
+ -[Project Overview](https://github.com/TeodoraEnache/Proiect_Preamplificator_Audio?tab=readme-ov-file#project-overview)  
  -[🔍Circuit Simulation and Testing](https://github.com/TeodoraEnache/Proiect_Preamplificator_Audio?tab=readme-ov-file#circuit-simulation-and-testing)
- -[Conclusion - ⚡Skills Developed](https://github.com/TeodoraEnache/Proiect_Preamplificator_Audio?tab=readme-ov-file#skills-developed)
+
 ## 🔍📖Description: 
 
  A comprehensive project focused on designing and implementing an audio preamplifier with voltage-controlled gain, adjustable between 1x and 40x. The project includes:  
