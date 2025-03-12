@@ -23,6 +23,21 @@ Audio Preamplifier – Design and Implementation
 ![Circuit](https://github.com/TeodoraEnache/Proiect_Preamplificator_Audio/blob/main/schema_electrica.jpg)
  <br/>  
 
+ The result of the PSpice simulation demonstrate how the gain varies with the control voltage.
+
+ ### First Simulation - Control voltage=4V
+ The gain is low, when the control voltage is 4V. The output signal(GREEN) is weak, having almost the same amplitude as the imput signal (RED), indicating that the circuit functions as a signal repeater.
+<br/>
+![Sim1](https://github.com/TeodoraEnache/Proiect_Preamplificator_Audio/blob/main/VDC%3D4V.jpg)
+<br/>
+
+### Second Simulation - Control voltage=0V
+The gain increases, when the control voltage is 0V. The output(GREEN) is amplified significantly, with the output amplitude increased by a factor of 40.
+<br/>
+![Sim2](https://github.com/TeodoraEnache/Proiect_Preamplificator_Audio/blob/main/VDC%3D0V.jpg)
+<br/>
+
+
 ## ⚡Skills Developed
 
 Electronic design and simulation.  
