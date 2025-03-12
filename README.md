@@ -1,7 +1,8 @@
 # Proiect_Preamplificator_Audio
 
 # 🔊Audio Preamplifier – Design and Implementation
-## 📜 Table of contents:   -[🔍📖Description](https://github.com/TeodoraEnache/Proiect_Preamplificator_Audio?tab=readme-ov-file#description)  
+## 📜 Table of contents:   
+-[🔍📖Description](https://github.com/TeodoraEnache/Proiect_Preamplificator_Audio?tab=readme-ov-file#description)  
  -[Download Project](https://github.com/TeodoraEnache/Proiect_Preamplificator_Audio?tab=readme-ov-file#download-project)  
  -[Project Overview](https://github.com/TeodoraEnache/Proiect_Preamplificator_Audio?tab=readme-ov-file#project-overview)  
  -[🔍Circuit Simulation and Testing](https://github.com/TeodoraEnache/Proiect_Preamplificator_Audio?tab=readme-ov-file#circuit-simulation-and-testing)  
