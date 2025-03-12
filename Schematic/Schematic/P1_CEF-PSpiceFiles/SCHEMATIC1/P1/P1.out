@@ -1,0 +1,190 @@
+
+**** 12/12/24 17:15:31 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-P1"  [ c:\users\admin\documents\etti\tcad\cef\l1\p1_cef-pspicefiles\schematic1\p1.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "P1.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.TRAN  0 3ms 0 100ns 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source P1_CEF
+R_R26         N107616 N108481  4.7 TC=0,0 
+Q_Q8         N107208 N107208 N107376 BC817-25 
+C_C2         N107314 N107364  10u  TC=0,0 
+R_R3'         N107208 N107314  680 TC=0,0 
+V_V4         N107492 N107198 0
+V_V2         N107208 0 14V
+R_R25         N108532 N107616  10 TC=0,0 
+R_R22         N107492 N1074280  22 TC=0,0 
+R_RL         N107364 0  900 TC=0,0 
+R_R23         N107198 N107208  1k TC=0,0 
+Q_Q7         N107376 N1074280 N107498 BC817-25 
+V_V3         N107468 0  AC 0
++SIN 0 40m 4k 0 0 0
+R_R1         0 N107198  100 TC=0,0 
+C_C1         N107468 N107198  10u  TC=0,0 
+Q_Q4         N107314 N107498 N107616 BC817-25 
+R_R27         N108481 N108485  1 TC=0,0 
+R_R28         N108485 0  1 TC=0,0 
+R_R29         0 N108532  4.7 TC=0,0 
+D_D1         N111996 0 LG_T656-TYP 
+R_R30         N107208 N111996  330 TC=0,0 
+
+**** RESUMING P1.cir ****
+.END
+
+**** 12/12/24 17:15:31 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-P1"  [ c:\users\admin\documents\etti\tcad\cef\l1\p1_cef-pspicefiles\schematic1\p1.sim ] 
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               LG_T656-TYP     
+          IS  209.900000E-24 
+           N    1.627        
+         IKF    3.1159       
+          RS    2.6489       
+
+
+**** 12/12/24 17:15:31 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-P1"  [ c:\users\admin\documents\etti\tcad\cef\l1\p1_cef-pspicefiles\schematic1\p1.sim ] 
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               BC817-25        
+               NPN             
+       LEVEL    1            
+          IS   32.530000E-15 
+          BF  294.4          
+          NF    1            
+         VAF  100            
+         IKF     .8311       
+         ISE  318.500000E-15 
+          NE    1.642        
+          BR    5.855        
+          NR    1            
+         IKR     .1075       
+         ISC  199.700000E-15 
+          NC    2.09         
+          NK     .5663       
+         ISS    0            
+          RE    0            
+          RC     .4196       
+         CJE   71.140000E-12 
+         VJE     .5          
+         MJE     .3333       
+         CJC   24.290000E-12 
+         VJC     .5          
+         MJC     .3333       
+        XCJC    1            
+         CJS    0            
+         VJS     .75         
+          TF  660.800000E-12 
+         XTF   88.29         
+         VTF   10            
+         ITF    2.569        
+          TR   10.000000E-09 
+         XTB    1.5          
+          KF    0            
+          AF    1            
+          CN    2.42         
+           D     .87         
+
+
+**** 12/12/24 17:15:31 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-P1"  [ c:\users\admin\documents\etti\tcad\cef\l1\p1_cef-pspicefiles\schematic1\p1.sim ] 
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N107198)    1.2727                   (N107208)   14.0000                       
+
+(N107314)    6.6076                   (N107364)    0.0000                       
+
+(N107376)   13.4600                   (N107468)    0.0000                       
+
+(N107492)    1.2727                   (N107498)     .7354                       
+
+(N107616)     .0502                   (N108481)     .0150                       
+
+(N108485)     .0075                   (N108532)     .0161                       
+
+(N111996)    2.0569                   (N1074280)    1.2727                  
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V4        -2.157E-07
+    V_V2        -5.983E-02
+    V_V3         0.000E+00
+
+    TOTAL POWER DISSIPATION   8.38E-01  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 12/12/24 17:15:31 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-P1"  [ c:\users\admin\documents\etti\tcad\cef\l1\p1_cef-pspicefiles\schematic1\p1.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .80
+
