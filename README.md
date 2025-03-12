@@ -1,9 +1,15 @@
 # Proiect_Preamplificator_Audio
 
-# Audio Preamplifier – Design and Implementation
+# 🔊Audio Preamplifier – Design and Implementation
+## 📜 Table of contents: 
+ -[🔍📖Description](https://github.com/TeodoraEnache/Proiect_Preamplificator_Audio?tab=readme-ov-file#description)
+ -[Download Project](https://github.com/TeodoraEnache/Proiect_Preamplificator_Audio?tab=readme-ov-file#download-project)
+ -[Project Overview](https://github.com/TeodoraEnache/Proiect_Preamplificator_Audio?tab=readme-ov-file#project-overview)
+ -[🔍Circuit Simulation and Testing](https://github.com/TeodoraEnache/Proiect_Preamplificator_Audio?tab=readme-ov-file#circuit-simulation-and-testing)
+ -[Conclusion - ⚡Skills Developed](https://github.com/TeodoraEnache/Proiect_Preamplificator_Audio?tab=readme-ov-file#skills-developed)
 ## 🔍📖Description: 
 
- A comprehensive project focused on designing and implementing an audio preamplifier with voltage-controlled gain, adjustable between 1x and 40x. The project included:  
+ A comprehensive project focused on designing and implementing an audio preamplifier with voltage-controlled gain, adjustable between 1x and 40x. The project includes:  
  • Designing the electrical schematic and simulating functionality using Cadence/Orcad PSpice.  
  • Creating a production-optimized SMD-based PCB layout.  
  • Providing detailed documentation, including theoretical analysis, applications, and manufacturing guidelines.
@@ -17,9 +23,9 @@
  Adaptability is essential for ensuring audio fidelity in different input signal levels.
 
  
- ## Circuit Simulation and Testing
+ ## 🔍Circuit Simulation and Testing
 
- ## Schematic
+ ### Schematic
  
  The circuit schematic consists of a Darlington amplifier stage, which provides high current gain and high input impedance, making it suitable for low-power signal amplification. The circuit operates with a single positive power supply, using a common ground reference. After amplification and filtering, the processed audio signal is directed to the output stage, ensuring high-quality signal transmission.
  <br/>
@@ -48,7 +54,7 @@ The gain increases, when the control voltage is 0V. The output(GREEN) is amplifi
 ![PCB](https://github.com/TeodoraEnache/Proiect_Preamplificator_Audio/blob/main/layout.jpg)
 <br/>
 
-## ⚡Skills Developed
+## Conclusion - ⚡Skills Developed
 
 Electronic design and simulation.  
 • PCB design and layout in SMT technology.  
