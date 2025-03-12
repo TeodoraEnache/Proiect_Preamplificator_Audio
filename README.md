@@ -31,22 +31,19 @@
  The result of the SPICE simulation demonstrate how the gain varies with the control voltage.
 
  #### First Simulation - Control voltage=4V
- The gain is low, when the control voltage is 4V. The output signal(GREEN) is weak, having almost the same amplitude as the imput signal (RED), indicating that the circuit functions as a signal repeater.  
-
-<br/>
+ The gain is low, when the control voltage is 4V. The output signal(GREEN) is weak, having almost the same amplitude as the imput signal (RED), indicating that the circuit functions as a signal repeater.
+ <br/>
 ![Sim1](https://github.com/TeodoraEnache/Proiect_Preamplificator_Audio/blob/main/VDC%3D4V.jpg)
 <br/>
 
 #### Second Simulation - Control voltage=0V
-The gain increases, when the control voltage is 0V. The output(GREEN) is amplified significantly, with the output amplitude increased by a factor of 40.  
-
+The gain increases, when the control voltage is 0V. The output(GREEN) is amplified significantly, with the output amplitude increased by a factor of 40.
 <br/>
-![Sim2](hhttps://github.com/TeodoraEnache/Proiect_Preamplificator_Audio/blob/main/VDC%3D0V.jpg)
+![Sim2](https://github.com/TeodoraEnache/Proiect_Preamplificator_Audio/blob/main/VDC%3D0V.jpg)
 <br/>
 
  ### PCB DESIGN
- A custom PCB was designed for the practical implementation of this circuit. The layout optimizes component placement and signal routing to reduce noise and interference, ensuring a clean, amplified output. Measuring 40mm × 40mm, the compact PCB includes dedicated pads for input, output, power connections, and the control voltage signal, making it easily integrable into various audio applications.  
-
+ A custom PCB was designed for the practical implementation of this circuit. The layout optimizes component placement and signal routing to reduce noise and interference, ensuring a clean, amplified output. Measuring 40mm × 40mm, the compact PCB includes dedicated pads for input, output, power connections, and the control voltage signal, making it easily integrable into various audio applications.
  <br/>
 ![PCB](https://github.com/TeodoraEnache/Proiect_Preamplificator_Audio/blob/main/layout.jpg)
 <br/>
