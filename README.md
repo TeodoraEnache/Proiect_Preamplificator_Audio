@@ -1,12 +1,27 @@
 # Proiect_Preamplificator_Audio
 
 # 🔊Audio Preamplifier – Design and Implementation
-## 📜 Table of contents:   
--[🔍📖Description](https://github.com/TeodoraEnache/Proiect_Preamplificator_Audio?tab=readme-ov-file#description)  
- -[Download Project](https://github.com/TeodoraEnache/Proiect_Preamplificator_Audio?tab=readme-ov-file#download-project)  
- -[Project Overview](https://github.com/TeodoraEnache/Proiect_Preamplificator_Audio?tab=readme-ov-file#project-overview)  
- -[🔍Circuit Simulation and Testing](https://github.com/TeodoraEnache/Proiect_Preamplificator_Audio?tab=readme-ov-file#circuit-simulation-and-testing)  
- -[Conclusion - ⚡Skills Developed](https://github.com/TeodoraEnache/Proiect_Preamplificator_Audio?tab=readme-ov-file#conclusion---skills-developed)
+## 📜 Table of Contents  
+
+1. [🔍📖 Description](#-description)  
+2. [📥 Download Project](#download-project)  
+3. [📌 Project Overview](#project-overview)  
+4. [🔍 Circuit Simulation and Testing](#-circuit-simulation-and-testing)  
+   - [🖥️ Schematic](#schematic)  
+   - [📊 SPICE Simulation](#spice-simulation)  
+     - [First Simulation - Control voltage = 4V](#first-simulation---control-voltage4v)  
+     - [Second Simulation - Control voltage = 0V](#second-simulation---control-voltage0v)  
+5. [🛠️ PCB Design](#pcb-design)  
+   - [ PCB Layout](#pcb-layout)  
+6. [Audio Preamplifier - PCB Layers](#audio-preamplifier---pcb-layers)  
+   - [🔷 TOP Layer](#-top-layer)  
+   - [🔷 BOTTOM Layer](#-bottom-layer)  
+   - [🔷 SMTOP Layer (Solder Mask Top)](#-smtop-layer-solder-mask-top)  
+   - [🔷 SMBOT Layer (Solder Mask Bottom)](#-smbot-layer-solder-mask-bottom)  
+   - [🔷 SSTOP Layer (Silkscreen Top)](#-sstop-layer-silkscreen-top)  
+   - [🔷 Outline Layer (Board Outline)](#-outline-layer-board-outline)  
+   - [🔷 Fabrication Layer](#-fabrication-layer)  
+
 
 ## 🔍📖Description: 
 
