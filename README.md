@@ -57,31 +57,31 @@ The gain increases, when the control voltage is 0V. The output(GREEN) is amplifi
 
 ### Audio Preamplifier - PCB Layers
 #### 🔷 **TOP Layer** 
--[TOP]()
+-[TOP](https://github.com/TeodoraEnache/Proiect_Preamplificator_Audio/blob/main/Images/TOP.png)
 - Contains **all electronic components**, as per project requirements.
 - Signal, power, and interconnection traces.
 - Fiducial markers for precise alignment in the SMT assembly process.
 #### 🔷 **BOTTOM Layer**
--[BOTTOM]()
+-[BOTTOM](https://github.com/TeodoraEnache/Proiect_Preamplificator_Audio/blob/main/Images/BOTTOM.png)
 - Used for additional traces and interconnection through **vias (0.4mm diameter)**.
 - Helps optimize circuit routing.
 #### 🔷 **SMTOP Layer** *(Solder Mask Top)*
--[SMTOP]()
+-[SMTOP](https://github.com/TeodoraEnache/Proiect_Preamplificator_Audio/blob/main/Images/SMTOP.png)
 - A protective layer that covers exposed copper traces, preventing oxidation and short circuits.
 - Only exposes the necessary soldering pads.
 
 #### 🔷 **SMBOT Layer** *(Solder Mask Bottom)*
--[SMBOT]()
+-[SMBOT](https://github.com/TeodoraEnache/Proiect_Preamplificator_Audio/blob/main/Images/SMBOT.png)
 - Similar to SMTOP but applied to the bottom side of the board.
 - Protects traces on the BOTTOM layer.
 
 #### 🔷 **SSTOP Layer** *(Silkscreen Top)*
--[SSTOP]()
+-[SSTOP](https://github.com/TeodoraEnache/Proiect_Preamplificator_Audio/blob/main/Images/SSTOP.png)
 - A labeling layer containing component markings and assembly references.
 - Must not overlap soldering pads.
 
 #### 🔷 **Outline Layer** *(Board Outline)*
--[Outline]()
+-[Outline](https://github.com/TeodoraEnache/Proiect_Preamplificator_Audio/blob/main/Images/Outline.png)
 - Defines the PCB dimensions (**40mm x 40mm**).
 - Includes the **(0,0) coordinate** origin mark in the bottom-left corner.
 
