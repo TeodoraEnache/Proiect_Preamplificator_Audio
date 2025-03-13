@@ -56,7 +56,7 @@
  
  The circuit schematic consists of a Darlington amplifier stage, which provides high current gain and high input impedance, making it suitable for low-power signal amplification. The circuit operates with a single positive power supply, using a common ground reference. After amplification and filtering, the processed audio signal is directed to the output stage, ensuring high-quality signal transmission.
  <br/>
-![Circuit](https://github.com/TeodoraEnache/Proiect_Preamplificator_Audio/blob/main/schema_electrica.jpg)
+![Circuit](https://github.com/TeodoraEnache/Proiect_Preamplificator_Audio/blob/main/Images/schema_electrica.jpg)
  <br/>  
 
  ### SPICE simulation 
@@ -66,13 +66,13 @@
  #### First Simulation - Control voltage=4V
  The gain is low, when the control voltage is 4V. The output signal(GREEN) is weak, having almost the same amplitude as the imput signal (RED), indicating that the circuit functions as a signal repeater.
  <br/>
-![Sim1](https://github.com/TeodoraEnache/Proiect_Preamplificator_Audio/blob/main/VDC%3D4V.jpg)
+![Sim1](https://github.com/TeodoraEnache/Proiect_Preamplificator_Audio/blob/main/Images/schema_electrica.jpg)
 <br/>
 
 #### Second Simulation - Control voltage=0V
 The gain increases, when the control voltage is 0V. The output signal(GREEN) is amplified significantly, with the output amplitude increased by a factor of 40.
 <br/>
-![Sim2](https://github.com/TeodoraEnache/Proiect_Preamplificator_Audio/blob/main/VDC%3D0V.jpg)
+![Sim2](https://github.com/TeodoraEnache/Proiect_Preamplificator_Audio/blob/main/Images/VDC%3D0V.jpg)
 <br/>
 
  ### PCB DESIGN
@@ -80,7 +80,7 @@ The gain increases, when the control voltage is 0V. The output signal(GREEN) is 
 
  #### **Layout**
 
-![PCB](https://github.com/TeodoraEnache/Proiect_Preamplificator_Audio/blob/main/layout.jpg)
+![PCB](https://github.com/TeodoraEnache/Proiect_Preamplificator_Audio/blob/main/Images/layout.jpg)
 
 
 ### Audio Preamplifier - PCB Layers
@@ -124,6 +124,8 @@ Schematics: Detailed circuit diagrams illustrating the preamplifier's design.
 Layout: PCB layout designs for the physical implementation of the circuit.
 
 Gerber and Excellon Files: Manufacturing files necessary for PCB fabrication.
+
+The project and its official documentation are available as a PDF
  
  ### Conclusion 
  *This audio preamplifier project not only demonstrates the integration of theoretical and practical knowledge in audio electronics but also highlights the importance of a well-optimized PCB design. The carefully structured PCB layout ensures minimal noise, efficient signal routing, and proper thermal management, crucial for maintaining high-fidelity audio performance. By implementing a voltage-controlled gain feature and utilizing a compact, production-ready SMD layout, this design provides a scalable and reliable solution for various audio amplification needs.*
