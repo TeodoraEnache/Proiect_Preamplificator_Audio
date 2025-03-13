@@ -55,6 +55,37 @@ The gain increases, when the control voltage is 0V. The output(GREEN) is amplifi
 ![PCB](https://github.com/TeodoraEnache/Proiect_Preamplificator_Audio/blob/main/layout.jpg)
 <br/>
 
+### Audio Preamplifier - PCB Layers
+#### 🔷 **TOP Layer** 
+-[TOP]()
+- Contains **all electronic components**, as per project requirements.
+- Signal, power, and interconnection traces.
+- Fiducial markers for precise alignment in the SMT assembly process.
+#### 🔷 **BOTTOM Layer**
+-[BOTTOM]()
+- Used for additional traces and interconnection through **vias (0.4mm diameter)**.
+- Helps optimize circuit routing.
+#### 🔷 **SMTOP Layer** *(Solder Mask Top)*
+-[SMTOP]()
+- A protective layer that covers exposed copper traces, preventing oxidation and short circuits.
+- Only exposes the necessary soldering pads.
+
+#### 🔷 **SMBOT Layer** *(Solder Mask Bottom)*
+-[SMBOT]()
+- Similar to SMTOP but applied to the bottom side of the board.
+- Protects traces on the BOTTOM layer.
+
+#### 🔷 **SSTOP Layer** *(Silkscreen Top)*
+-[SSTOP]()
+- A labeling layer containing component markings and assembly references.
+- Must not overlap soldering pads.
+
+#### 🔷 **Outline Layer** *(Board Outline)*
+-[Outline]()
+- Defines the PCB dimensions (**40mm x 40mm**).
+- Includes the **(0,0) coordinate** origin mark in the bottom-left corner.
+
+
 ## Conclusion - ⚡Skills Developed
 
 Electronic design and simulation.  
