@@ -1,6 +1,14 @@
-# Proiect_Preamplificator_Audio
 
 # 🔊Audio Preamplifier – Design and Implementation
+
+## Academic Context
+### National University of Science and Technology POLITEHNICA Bucharest  
+#### Faculty of Electronics, Telecommunications, and Information Technology  
+##### Academic Year 2024-2025 
+**Supervisors:**  
+- Prof. Dr. Eng. Dragoș Dobrescu  
+- Lecturer Dr. Eng. Mădălin Moise  
+
 ##  Table of Contents  
 
 1. [ Description](#-description)  
@@ -26,7 +34,7 @@
 9. [References](#references)
 
 
-## Description: 
+## Project Description: 
 
  A comprehensive project focused on designing and implementing an audio preamplifier with voltage-controlled gain, adjustable between 1x and 40x. The project includes:  
  • Designing the electrical schematic and simulating functionality using Cadence/Orcad PSpice.  
@@ -34,7 +42,7 @@
  • Providing detailed documentation, including theoretical analysis, applications, and manufacturing guidelines.
 
 ## Download Project:
-[Click here to download the PDF](https://github.com/TeodoraEnache/Proiect_Preamplificator_Audio/blob/main/Enache_Teodora_Preamplificator%20Audio.pdf)
+[Click here to download the Project as PDF](https://github.com/TeodoraEnache/Proiect_Preamplificator_Audio/blob/main/Enache_Teodora_Preamplificator%20Audio.pdf)
 
 ## Project Overview
 
@@ -118,10 +126,10 @@ Layout: PCB layout designs for the physical implementation of the circuit.
 Gerber and Excellon Files: Manufacturing files necessary for PCB fabrication.
  
  ### Conclusion 
- **This audio preamplifier project not only demonstrates the integration of theoretical and practical knowledge in audio electronics but also highlights the importance of a well-optimized PCB design. The carefully structured PCB layout ensures minimal noise, efficient signal routing, and proper thermal management, crucial for maintaining high-fidelity audio performance. By implementing a voltage-controlled gain feature and utilizing a compact, production-ready SMD layout, this design provides a scalable and reliable solution for various audio amplification needs.**
+ *This audio preamplifier project not only demonstrates the integration of theoretical and practical knowledge in audio electronics but also highlights the importance of a well-optimized PCB design. The carefully structured PCB layout ensures minimal noise, efficient signal routing, and proper thermal management, crucial for maintaining high-fidelity audio performance. By implementing a voltage-controlled gain feature and utilizing a compact, production-ready SMD layout, this design provides a scalable and reliable solution for various audio amplification needs.*
 
  ### References 
- 1. Gheorghe Brezeanu, Florin Draghici.	**Circuite Electronice fundamentale**, Ed. Niculescu (2013)
+ 1. Brezeanu,Gheorghe. Draghici, Florin. **Circuite Electronice fundamentale**, Ed. Niculescu (2013)
  2. Codreanu, Norocel. **Platforme Laborator Tehnici CAD de Realizare a Modulelor Electronice** (n.d.)
  3. Mitzner, K. **Complete PCB design using OrCAD Capture and PCB editor**, Newnes, 2009
- 4. Popa, Cosmin Radu. Platforma laborator CIA (n.d.)
+ 4. Popa, Cosmin Radu. **Platforma laborator** CIA (n.d.)
