@@ -57,7 +57,7 @@ The gain increases, when the control voltage is 0V. The output(GREEN) is amplifi
 
 ### Audio Preamplifier - PCB Layers
 #### 🔷 **TOP Layer** 
--[TOP](https://github.com/TeodoraEnache/Proiect_Preamplificator_Audio/blob/main/Images/TOP.png)
+![TOP](https://github.com/TeodoraEnache/Proiect_Preamplificator_Audio/blob/main/Images/TOP.png)
 - Contains **all electronic components**, as per project requirements.
 - Signal, power, and interconnection traces.
 - Fiducial markers for precise alignment in the SMT assembly process.
@@ -84,7 +84,10 @@ The gain increases, when the control voltage is 0V. The output(GREEN) is amplifi
 ![Outline](https://github.com/TeodoraEnache/Proiect_Preamplificator_Audio/blob/main/Images/Outline.png)
 - Defines the PCB dimensions (**40mm x 40mm**).
 - Includes the **(0,0) coordinate** origin mark in the bottom-left corner.
-
+#### 🔷 **Fabrication Layer**
+![Fabrication](https://github.com/TeodoraEnache/Proiect_Preamplificator_Audio/blob/main/Images/Fabrication.png)
+- Contains essential manufacturing information
+ 
 
 ## Conclusion - ⚡Skills Developed
 
