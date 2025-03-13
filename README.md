@@ -1,17 +1,17 @@
 # Proiect_Preamplificator_Audio
 
 # 🔊Audio Preamplifier – Design and Implementation
-## 📜 Table of Contents  
+##  Table of Contents  
 
-1. [🔍📖 Description](#-description)  
-2. [📥 Download Project](#download-project)  
-3. [📌 Project Overview](#project-overview)  
-4. [🔍 Circuit Simulation and Testing](#-circuit-simulation-and-testing)  
-   - [🖥️ Schematic](#schematic)  
-   - [📊 SPICE Simulation](#spice-simulation)  
+1. [ Description](#-description)  
+2. [ Download Project](#download-project)  
+3. [ Project Overview](#project-overview)  
+4. [ Circuit Simulation and Testing](#-circuit-simulation-and-testing)  
+   - [ Schematic](#schematic)  
+   - [ SPICE Simulation](#spice-simulation)  
      - [First Simulation - Control voltage = 4V](#first-simulation---control-voltage4v)  
      - [Second Simulation - Control voltage = 0V](#second-simulation---control-voltage0v)  
-5. [🛠️ PCB Design](#pcb-design)  
+5. [PCB Design](#pcb-design)  
    - [ PCB Layout](#pcb-layout)  
 6. [Audio Preamplifier - PCB Layers](#audio-preamplifier---pcb-layers)  
    - [🔷 TOP Layer](#-top-layer)  
@@ -20,10 +20,12 @@
    - [🔷 SMBOT Layer (Solder Mask Bottom)](#-smbot-layer-solder-mask-bottom)  
    - [🔷 SSTOP Layer (Silkscreen Top)](#-sstop-layer-silkscreen-top)  
    - [🔷 Outline Layer (Board Outline)](#-outline-layer-board-outline)  
-   - [🔷 Fabrication Layer](#-fabrication-layer)  
+   - [🔷 Fabrication Layer](#-fabrication-layer) 
+7. [Repository Contents](#repository-contents)
+8. [Conclusion](#conclusion)
 
 
-## 🔍📖Description: 
+## Description: 
 
  A comprehensive project focused on designing and implementing an audio preamplifier with voltage-controlled gain, adjustable between 1x and 40x. The project includes:  
  • Designing the electrical schematic and simulating functionality using Cadence/Orcad PSpice.  
@@ -31,7 +33,7 @@
  • Providing detailed documentation, including theoretical analysis, applications, and manufacturing guidelines.
 
 ## Download Project:
-[👉 📥Click here to download the PDF](https://github.com/TeodoraEnache/Proiect_Preamplificator_Audio/blob/main/Enache_Teodora_Preamplificator%20Audio.pdf)
+[Click here to download the PDF](https://github.com/TeodoraEnache/Proiect_Preamplificator_Audio/blob/main/Enache_Teodora_Preamplificator%20Audio.pdf)
 
 ## Project Overview
 
@@ -39,7 +41,7 @@
  Adaptability is essential for ensuring audio fidelity in different input signal levels.
 
  
- ## 🔍Circuit Simulation and Testing
+ ## Circuit Simulation and Testing
 
  ### Schematic
  
@@ -59,7 +61,7 @@
 <br/>
 
 #### Second Simulation - Control voltage=0V
-The gain increases, when the control voltage is 0V. The output(GREEN) is amplified significantly, with the output amplitude increased by a factor of 40.
+The gain increases, when the control voltage is 0V. The output signal(GREEN) is amplified significantly, with the output amplitude increased by a factor of 40.
 <br/>
 ![Sim2](https://github.com/TeodoraEnache/Proiect_Preamplificator_Audio/blob/main/VDC%3D0V.jpg)
 <br/>
@@ -67,7 +69,7 @@ The gain increases, when the control voltage is 0V. The output(GREEN) is amplifi
  ### PCB DESIGN
  A custom PCB was designed for the practical implementation of this circuit. The layout optimizes component placement and signal routing to reduce noise and interference, ensuring a clean, amplified output. Measuring 40mm × 40mm, the compact PCB includes dedicated pads for input, output, power connections, and the control voltage signal, making it easily integrable into various audio applications.
 
- #### **PCB layout**
+ #### **Layout**
 
 ![PCB](https://github.com/TeodoraEnache/Proiect_Preamplificator_Audio/blob/main/layout.jpg)
 
@@ -103,12 +105,16 @@ The gain increases, when the control voltage is 0V. The output(GREEN) is amplifi
 - Includes the **(0,0) coordinate** origin mark in the bottom-left corner.
 #### 🔷 **Fabrication Layer**
 ![Fabrication](https://github.com/TeodoraEnache/Proiect_Preamplificator_Audio/blob/main/Images/Fabrication.png)
-- Contains essential manufacturing information
+- Contains essential manufacturing information.
+
+### Repository Contents
+The repository includes essential design files:
+
+Schematics: Detailed circuit diagrams illustrating the preamplifier's design.
+
+Layout: PCB layout designs for the physical implementation of the circuit.
+
+Gerber and Excellon Files: Manufacturing files necessary for PCB fabrication.
  
-
-## Conclusion - ⚡Skills Developed
-
-Electronic design and simulation.  
-• PCB design and layout in SMT technology.  
-• Technical documentation and analysis.  
-• Proficiency in CAD tools for electronic engineering
+ ### Conclusion 
+ **This audio preamplifier project not only demonstrates the integration of theoretical and practical knowledge in audio electronics but also highlights the importance of a well-optimized PCB design. The carefully structured PCB layout ensures minimal noise, efficient signal routing, and proper thermal management, crucial for maintaining high-fidelity audio performance. By implementing a voltage-controlled gain feature and utilizing a compact, production-ready SMD layout, this design provides a scalable and reliable solution for various audio amplification needs.**
