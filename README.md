@@ -23,6 +23,7 @@
    - [🔷 Fabrication Layer](#-fabrication-layer) 
 7. [Repository Contents](#repository-contents)
 8. [Conclusion](#conclusion)
+9. [References](#references)
 
 
 ## Description: 
@@ -118,3 +119,9 @@ Gerber and Excellon Files: Manufacturing files necessary for PCB fabrication.
  
  ### Conclusion 
  **This audio preamplifier project not only demonstrates the integration of theoretical and practical knowledge in audio electronics but also highlights the importance of a well-optimized PCB design. The carefully structured PCB layout ensures minimal noise, efficient signal routing, and proper thermal management, crucial for maintaining high-fidelity audio performance. By implementing a voltage-controlled gain feature and utilizing a compact, production-ready SMD layout, this design provides a scalable and reliable solution for various audio amplification needs.**
+
+ ### References 
+ 1. Gheorghe Brezeanu, Florin Draghici.	**Circuite Electronice fundamentale**, Ed. Niculescu (2013)
+ 2. Codreanu, Norocel. **Platforme Laborator Tehnici CAD de Realizare a Modulelor Electronice** (n.d.)
+ 3. Mitzner, K. **Complete PCB design using OrCAD Capture and PCB editor**, Newnes, 2009
+ 4. Popa, Cosmin Radu. Platforma laborator CIA (n.d.)
