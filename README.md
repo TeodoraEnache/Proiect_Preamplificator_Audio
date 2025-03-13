@@ -51,6 +51,8 @@ The gain increases, when the control voltage is 0V. The output(GREEN) is amplifi
 
  ### PCB DESIGN
  A custom PCB was designed for the practical implementation of this circuit. The layout optimizes component placement and signal routing to reduce noise and interference, ensuring a clean, amplified output. Measuring 40mm × 40mm, the compact PCB includes dedicated pads for input, output, power connections, and the control voltage signal, making it easily integrable into various audio applications.
+
+ #### **PCB layout**
  <br/>
 ![PCB](https://github.com/TeodoraEnache/Proiect_Preamplificator_Audio/blob/main/layout.jpg)
 <br/>
