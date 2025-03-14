@@ -1,5 +1,5 @@
 
-# 🔊Audio Preamplifier – Design and Implementation
+# 🔊Audio Preamplifier with Voltage-Controlled Gain – Design and Implementation
 
 ## Academic Context
 ### National University of Science and Technology POLITEHNICA Bucharest  
