@@ -119,13 +119,13 @@ The gain increases, when the control voltage is 0V. The output signal(GREEN) is 
 ### Repository Contents
 The repository includes essential design files:
 
-Schematics: Detailed circuit diagrams illustrating the preamplifier's design.
+-[Schematics](https://github.com/TeodoraEnache/Proiect_Preamplificator_Audio/tree/main/Schematic): Detailed circuit diagrams illustrating the preamplifier's design.
 
-Layout: PCB layout designs for the physical implementation of the circuit.
+-[Layout](https://github.com/TeodoraEnache/Proiect_Preamplificator_Audio/tree/main/Layout): PCB layout designs for the physical implementation of the circuit.
 
-Gerber and Excellon Files: Manufacturing files necessary for PCB fabrication.
+-[Gerber and Excellon Files](https://github.com/TeodoraEnache/Proiect_Preamplificator_Audio/tree/main/Gerber_Excellon): Manufacturing files necessary for PCB fabrication.
 
-The project and its official documentation are available as a PDF.
+-The project and its official documentation are available as a PDF.
  
  ### Conclusion 
  *This audio preamplifier project not only demonstrates the integration of theoretical and practical knowledge in audio electronics but also highlights the importance of a well-optimized PCB design. The carefully structured PCB layout ensures minimal noise, efficient signal routing, and proper thermal management, crucial for maintaining high-fidelity audio performance. By implementing a voltage-controlled gain feature and utilizing a compact, production-ready SMD layout, this design provides a scalable and reliable solution for various audio amplification needs.*
